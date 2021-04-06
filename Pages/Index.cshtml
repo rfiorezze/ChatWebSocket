@@ -1,0 +1,18 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div style="margin-bottom:5px;">
+    Apelido: <input type="text" id="txtNickName" value="" />
+</div>
+<div style="margin-bottom:5px;">
+    N° da Sala: <input type="text"  id="txtRoomNo" value="1"/> <button id="btnJoin">Entrar</button> <button id="btnLeave">Sair da Sala</button>
+</div>
+<div style="height:300px;width:600px">
+    <textarea style="height:100%;width:100%" id="msgList" readonly></textarea>
+    <div style="text-align: right">
+        <textarea id="txtMsg" value="" style="width:400px;height:60px"></textarea>  <button id="btnSend" style="vertical-align:top">Enviar</button>
+    </div>
+</div>
