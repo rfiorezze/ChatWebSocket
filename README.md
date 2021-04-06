@@ -15,8 +15,7 @@ Repositório contém um projeto que utiliza WebSocket Nativo, para a conversaç�
 - Entrada e saida nas salas de conversa
 - Envios de mensagens publicas para uma sala
 - Envios de mensagens privadas para usuários
-1 - Validações
 - O sistema não permite enviar mensagens para usuários não conecatados
 - O sistema não permite enviar mensagem sem preencher o campo de mensagem
 - O sistema não permite o usuário entrar na sala sem digitar o seu nick
-- O sistema não permite o usuário de Entrar na sala com um Nick já existente
+- O sistema não permite o usuário de entrar com um Nick que já esta sendo usado na sala
